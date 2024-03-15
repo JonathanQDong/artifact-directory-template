@@ -2,25 +2,5 @@ Title:
 Utilizing Deep Learning to Uncover Antimicrobial Peptides and Investigating their Associations with Diverse Diseases
 
 Abstract:
-As pathogens start to become more resistant to our current antibiotics, we
-will soon need new antibiotics to fight various forms of bacteria. By 2050,
-drug-resistant pathogens are expected to be the leading cause of death in the
-
-world (O’Neill 2016). One way to create new antibiotics is to identify pep-
-tides, sequences of amino acids, that have antimicrobial properties. These are
-
-commonly known as antimicrobial peptides(AMP). These AMPs are known to
-
-regulate inflammation, kill certain types of cancer cells, and fight various in-
-fections and diseases. In this project, we use an Attention model(Vaswani
-
-et al. 2023) to classify peptides as AMPs or non-AMPs. We call the peptides
-that our model predicts to be AMPs: predicted AMPs. We then run this model
-on a dataset called FINRISK, which contains both DNA and health data on a
-randomly selected group of Finnish people. Using the output of our model
-and the health data in FINRISK, we found the correlation between having one
-of these predicted AMPs and having a disease recorded in FINRISK. In the 71
-study participants we looked at, we found a moderately strong correlation
-between having 4 predicted AMPs and COPD, though these results are still
-preliminary in nature. We would need to run the model over all participants
-in FINRISK before being able to test our results in a wet lab.
+As pathogens start to become more resistant to our current antibiotics, we will soon need new antibiotics to fight various forms of bacteria. By 2050, drug-resistant pathogens are expected to be the leading cause of death in the world (O’Neill 2016). One way to create new antibiotics is to identify peptides, sequences of amino acids, that have antimicrobial properties. These are commonly known as antimicrobial peptides(AMP). These AMPs are known to regulate inflammation, kill certain types of cancer cells, and fight various in-
+fections and diseases. In this project, we use an Attention model(Vaswani et al. 2023) to classify peptides as AMPs or non-AMPs. We call the peptides that our model predicts to be AMPs: predicted AMPs. We then run this model on a dataset called FINRISK, which contains both DNA and health data on a randomly selected group of Finnish people. Using the output of our model and the health data in FINRISK, we found the correlation between having one of these predicted AMPs and having a disease recorded in FINRISK. In the 71 study participants we looked at, we found a moderately strong correlation between having 4 predicted AMPs and COPD, though these results are still preliminary in nature. We would need to run the model over all participants in FINRISK before being able to test our results in a wet lab.

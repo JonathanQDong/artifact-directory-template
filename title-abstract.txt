@@ -5,15 +5,11 @@ Abstract:
 As pathogens start to become more resistant to our current antibiotics, we
 will soon need new antibiotics to fight various forms of bacteria. By 2050,
 drug-resistant pathogens are expected to be the leading cause of death in the
-
 world (O’Neill 2016). One way to create new antibiotics is to identify pep-
 tides, sequences of amino acids, that have antimicrobial properties. These are
-
 commonly known as antimicrobial peptides(AMP). These AMPs are known to
-
 regulate inflammation, kill certain types of cancer cells, and fight various in-
 fections and diseases. In this project, we use an Attention model(Vaswani
-
 et al. 2023) to classify peptides as AMPs or non-AMPs. We call the peptides
 that our model predicts to be AMPs: predicted AMPs. We then run this model
 on a dataset called FINRISK, which contains both DNA and health data on a
